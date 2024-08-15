@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+body{
+    margin:0%;
+    background-color:#f5f0f0;
+}
+/*
+
+header{
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding:160px;
+    margin: 0%;
+    background-image: url("/home/hammad/Downloads/Simple Opening Learning Background, Go To School, Book, Globe Background Image And Wallpaper for Free Download");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+header h1{
+    text-align: center;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+*/
+
+
+header {
+    position: relative;
+    height: 55vh;
+    overflow: hidden;
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.header-content {
+    position: relative;
+    color:#690430;
+    text-align: center;
+    z-index: 1;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.header-content h2{
+  color:#01575c;
+}
+.header-content h1:hover{
+  color:#04330a;
+}
+.header-content h2{
+  color:#04330a;
+}
+
+
+nav{
+    border: 2px solid black;
+    
+    background-color:#b4bfbb !important;
+}
+.nav a{
+    color:#790515;
+    text-decoration: none;
+
+}
+.collapse .nav a:hover {
+    color:#7f65b5;
+}
+main h1{
+    
+    margin: 10px;
+    margin-bottom: 10px;
+    color: #521c47;
+}
+.intro h2{
+    text-align: center;
+    margin: 1opx;
+    margin-bottom: 10px;
+}
+.path{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.card{
+    border: 2px solid whitesmoke;
+    float: left;
+    padding:15px;
+    margin: 5px;
+    height: 25%;
+    width: 33.33%;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+    cursor: zoom-in;
+    z-index: inherit no;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.card:hover{
+    background-color:#cafcf7;
+}
+.card h5{
+  color:yellowgreen;
+}
+.card h5:hover{
+  color:brown;
+}
+.car{
+      border:2px solid whitesmoke;
+      float: left;
+      margin-left: 50px;
+      justify-content: space-between;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .car:hover{
+      background-color: #cafcf7;
+    }
+    
+  section .led{
+    border: 2px solid white;
+    
+  }
+      
+      
+.ca{
+  border: 2px solid whitesmoke;
+  margin-top: 30px !important;
+  margin-left: 20px !important;
+margin-inline: 15px !important;
+margin-bottom: 30px;
+border-radius: 4px;
+  
+float: left;
+}
+section{
+  float: left !important;
+  margin: 30px !important;
+  margin-top: 10px !important;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+.ca:hover{
+  background-color: #7f65b5;
+}
+.video-section {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+    
+}
+ .video-section .content{
+   position: relative;
+   z-index: 1;
+   color: white;
+   padding: 20px;
+   background-color: rgba(0,0,0,0.5);
+   border-radius: 10px;
+   text-align: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   
+   font-size: 20px;
+  
+ }
+ .video-section h2{
+   color:blueviolet;
+   font-size: 40px;
+ }
+ .video-section h2:hover{
+   color:#3c2352;
+ }
+ .feature .switch{
+   padding: 20px;
+   text-align: center;
+   
+   
+ }
+ .feature .switch button{
+   background-color: #732133;
+   padding: 10px;
+   color: #171616;
+   border: 2px #732133;
+   border-radius: 6px;
+ }
+.feature .footer{
+  box-sizing: border-box;
+  background-color:#ebedec;
+  border: 2px #ebedec;
+  margin-bottom: 0% !important;
+  padding: 20px !important;
+  margin-right: 0% !important;
+  margin-left: 0% !important;
+  margin-top: 10px !important;
+}
+.footer a{
+  padding: 40px 40px;
+  text-decoration: none;
+  color: #e0021c;
+
+}
+  .feature footer, a:hover{
+    color: blue;
+  }
+  .footer p{
+    margin-top: 10px
+  }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    /*header{
+        box-sizing: border-box;
+        padding:40px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    */
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    .header-content p {
+        font-size: 1rem;
+    }
+
+    header {
+        height: 55vh;
+    }
+    
+    .video-container{
+      height: 55vh;
+    }
+    
+    .card{
+        border: 2px solid whitesmoke;
+      
+        
+        margin-left: 50px;
+        justify-content: space-between;
+        cursor: zoom-in; 
+    }
+    .car{
+      border:2px solid whitesmoke;
+     margin-top: 20px; 
+    width: 80%!important;
+    
+    
+      
+    
+    }
+    .car:hover{
+      background-color: #cafcf7;
+    }
+    .car h5:hover{
+      color: red;
+    }
+    .card:hover{
+    background-color:#cafcf7;
+
+    }
+    .path{
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+.arm .car{
+  display: flex;
+  flex-direction: left;
+  overflow:hidden;
+}    
+ .ca{
+  margin-left: 10px !important;
+
+   width: 100% !important;
+ }   
+.video-section{
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  
+}
+.background-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-section .content{
+  padding: 15px;
+  padding-bottom: 25px;
+  font-size: 0.95rem;
+  background-color: rgba(0,0,0,0.6);
+}
+.video-section .content h2{
+  font-size: 1.6rem;
+}
+.video-section .content p{
+  font-size: 0.85rem;
+}
+.footer a{
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #e0021c;
+
+    
+}    
+}
+
+
+</style>
+    <title>Future_Leader|Home page</title>
+  </head>
+  <body>
+    <!----
+    <header>
+          <h1>Future Leaders</h1>
+      </header>
+    -->
+    <header>
+        <div class="video-container">
+            <video autoplay muted loop class="background-video">
+                <source src="jh/you.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="header-content">
+                <h1>Future Leaders</h1>
+                <h3>Jion us your Bright Future</h3>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
+      
+      <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <h5 class="text-white h4"></div></h5>
+              <h5>
+            <div class="nav">
+
+                <a target="blank" href="#">Home</a>
+            </div>
+            <div class="nav">
+                <a target="blank" href="#">About us</a>
+            </div>
+            
+            <div class="nav">
+                    <a target="blank" href="#">Results</a>
+                </div>
+                <div class="nav">
+                        <a target="blank" href="#">JOBS</a>
+                    </div>
+                    <div class="nav">
+                            <a target="blank" href="#">PAF</a>
+                        </div>
+                        <div class="nav">
+                                <a target="blank" href="#">PAK NAVY</a>
+                            </div>
+                            <div class="nav">
+                                    <a target="blank" href="#">UNIVERSTY INFORMATIONS</a>
+                                </div>
+            </h5>
+            <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Educational Resources
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Books</a></li>
+                      <li><a class="dropdown-item" href="#">Videos Lacture</a></li>
+                      
+                    </ul>
+                  </div>
+            
+              <span class="text-muted"><h3>Click uper links for desire INFORMATIONS</h3></span>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+          <main>
+              <h1>Wellecome to Future Leaders Academy!</h1>
+              <div class="intro">
+                  <h2>Your Career Path Begins Here</h2>
+              </div>
+              <div class="path">
+              <div class="card" style="width: 18rem;">
+                    <img src="jh/do.JPEG" class="card-img-top" alt="image">
+                    <div class="card-body">
+                      <h5 class="card-title">Affordability</h5>
+                      <p class="card-text">Discover unbeatable Affordability with our friendly budget solution</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                        <img src="jh/ht.PNG" class="card-img-top" alt="card2">
+                        <div class="card-body">
+                          <h5 class="card-title">Expertise</h5>
+                          <p class="card-text"><br>Highly experniced and qualified instructor.They have friendly method of teaching</br></p>
+                        
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                            <img src="jh/ex.JPEG" class="card-img-top" alt="crd 3">
+                            <div class="card-body">
+                              <h5 class="card-title">Excellence</h5>
+                              <p class="card-text"><br><br>
+                                  
+                                Dedicated to upholding the highest standard of excellence in training</br></br></p>
+                                
+                              
+                            </div>
+                          </div>
+              
+                          <div class="card" style="width: 18rem;">
+                                <img src="jh/al.PNG" class="card-img-top" alt="4thcard">
+                                <div class="card-body">
+                                  <h5 class="card-title">Alumni Network</h5>
+                                  <p class="card-text">Supportive Alumni community that provide valueable expernice</p>
+                                  
+                                </div>
+                              </div>
+
+
+</div>
+
+  <div class="car" style="width: 18rem">
+    <img src="jh/aa.JPEG" class="card-img-top" alt="img">
+    <div class="card-body">
+      <h5 class="card-title" style="color:black">Jion Pakistan Army</h5>
+      <p class="card-text"><br>Eligibilty Criteria,Selection Method and Procedure,Required Documents,Past Papers and Experinces with Test Pattren,are given to jion Pak Army as Officers,Soldier or Civilian</br></p>
+      <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+    </div>
+  </div>
+  <div class="car" style="width: 18rem;">
+    <img src="jh/nav.JPEG" class="card-img-top" alt="pak navy">
+    <div class="card-body">
+      <h5 class="card-title" style="color:black;">Jion Pakistan Navy</h5>
+      <p class="card-text">Eligibilty Criteria,Selection Method and Procedure,Required Documents,Past Papers and Experinces with Test Pattren,are given to jion Pak Navy as Officers,Soldier or Civilian.</p>
+      <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+    </div>
+  </div>
+  <div class="car" style="width: 18rem;">
+    <img src="jh/paf.JPEG" class="card-img-top" alt="paf">
+    <div class="card-body">
+      <h5 class="card-title" style="color: black;">Jion Pakistan AIR FORCE</h5>
+      <p class="card-text"><br>Eligibilty Criteria,Selection Method and Procedure,Required Documents,Past Papers and Experinces and Complete Gudiance with Test Pattren,are given to jion Pak Air force as Officers,Soldier or Civilian.</br></p>
+      <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+    </div>
+  </div>
+
+
+  <div class="car" style="width: 18rem">
+    <img src="jh/iss.JPEG" class="card-img-top" alt="issb">
+    <div class="card-body">
+      <h5 class="card-title">ISSB Test Prepartion</h5>
+      <p class="card-text"> Online Apply Method and Procedure,Required Documents,Past Papers  with Test Pattren,are given to get comession in Army</p>
+      <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+    </div>
+  </div>
+  <section  > <div class="led">
+    <div class="ca" style="width: 18rem;">
+      <img src="jh/le.JPEG" class="card-img-top" alt="walls of legends">
+      <div class="card-body">
+        <h5 class="card-title" style="color: black;">Wall Of LEGENDS</h5>
+        <p class="card-text"><br>Here you will find the information abouts our LEGENDS .These LEGENDS fought bravely and sacrifice thier lives for out country</br></p>
+        <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+      </div>
+    </div>
+    <div class="ca" style="width: 18rem;">
+      <img src="jh/dd.PNG" class="card-img-top" alt="results">
+      <div class="card-body">
+        <h5 class="card-title" style="color: black;">Results</h5>
+        <p class="card-text">Here you will find the Results of all classes inculde 9th Class,10th Class,11th Class,12th Class of All Punjab Boards</p>
+        <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+      </div>
+    </div>
+    <div class="ca" style="width: 18rem;">
+      <img src="jh/army.JPEG" class="card-img-top" alt="caddet">
+      <div class="card-body">
+        <h5 class="card-title" style="color: black;">Pakistan Cadet Colleges</h5>
+        <p class="card-text">Admission procedure ,Semester Fee,,Monthly Expenses,Test Date,Online admission procedure and gudinace,Notes for entry tests.</p>
+        <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+      </div>
+    </div>
+    <div class="ca" style="width: 18rem;">
+      <img src="jh/istockphoto-675073328-612x612.JPG" class="card-img-top" alt="uni addmision">
+      <div class="card-body">
+        <h5 class="card-title" style="color: black;"><br>Pakistan Universties</br></h5>
+        <p class="card-text">Here provide all informations about Pakistan's Universties,admission opening Date,closing Date,online Apply, Semester Fee,gaduinace about making E-portal on Universties Websites</p>
+        <a target="blank" href="#" class="btn btn-primary">Reed more</a>
+      </div>
+    </div>
+</div>
+  </section>
+      
+  
+    
+  <section class="video-section">
+      <video autoplay muted loop class="background-video">
+          <source src="jh/back.MP4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <div class="content">
+      <h2>Striving for Excellence</h2>
+      <p>Join Pakistan Army through PMA Long Course, Direct Short Service Commission, Medical Officer, ICTO, Lady Cadet Course, Technical Cadet Course, M-Cadet, AMC, AFNS or in Short Service Regular Commission. Join Pakistan Navy in different branches like PN cadet, M-Cadet, Supply Branch, Medical Branch, Marine Engineering Branch, Education Branch, Operation Branch, Weapon Engineering, Ordinance Branch and IT Branch. Join PAF offers jobs through GDP Branch, Air Defence, Education Branch, Religious Branch, Accounts Branch, Logistics Branch, Met branch, Admin and Special Duty branch, Aeronautical Engineering Branch, Legal branch, Engineering Branch and Medical Branch and Special IT Branch. </p>
+  </div>
+    </section>
+    <hr>
+<section class="feature">
+<div class="begins">
+  <h1>Where Future Begins</h1>
+  <p>Building a strong sense of Candidates in Future Leaders to become leaders of Pakistan Defence Forces. 
+  </p>
+  </div>
+  <div class="begins">
+    <h2>Best Online/Physical Classes</h2>
+    <p>Both Males and Females can learn through online/phyiscal and can prepare themselves to preform with an excellent ways in intial test as well as ISSB</p>
+    <img src="jh/al.PNG" alt="LOGO"><img>
+  </div>
+  <div class="begins">
+    <h2>Books and Educational Resources</h2>
+    <p>We have best Educational Materials through which you can prepare yourself Better than Others</p>
+    <img src="jh/pexels-photo-3646172.JPEG" style="height: 150px; width:150px;" alt="books"></img>
+  </div>
+  <div class="switch">
+    <button target="blank" href="#" type="button">Learn more ----></button>
+  </div>
+  <div class="footer">
+    <a target="blank" href="https://www.facebook.com/profile.php?id=61551901935067">Facebok</a>
+    <a target="blank" href="https://youtube.com/@hammadshafique-cc5ce?si=w7COD3RwS_1ku8sS">Youtube</a>
+    <a target="blank" href="https://www.instagram.com/hammadshafique874?igsh=aWc2bXZkazF2bXk=">Instagram</a>
+    <a target="blank" href="#">FAQ</a>
+    <a target="blank" href="#">Twiter</a>
+    <a target="blank" href="#">Linkdin</a>
+    <a target="blank" href="03057647597">whatsaap</a>
+    <P class="copy">&copy;2024 Future Leader.All rights reserved</P>
+  </div>
+  </section>
+
+
+          
+    <!----<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
